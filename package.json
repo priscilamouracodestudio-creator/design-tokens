@@ -1,0 +1,23 @@
+{
+  "name": "@priscilamouracodestudio-creator/design-tokens",
+  "version": "1.0.0",
+  "description": "Design Tokens do Projeto",
+  "main": "build/js/tokens.js",
+  "files": [                       
+    "build/", 
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "npx style-dictionary build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["design-tokens", "css", "style-dictionary"],
+  "author": "Priscila Moura",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "5.1.1" 
+  }
+}
