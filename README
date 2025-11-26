@@ -1,0 +1,130 @@
+# 🎨 Design Tokens
+This repository stores and manages the core Design Tokens for all products and interfaces of the priscilamoura-codestudio-creator ecosystem.
+
+Design Tokens serve as the Single Source of Truth, ensuring:
+
+Visual consistency
+
+Smooth alignment between Design & Dev
+
+Scalability
+
+Automated delivery (via GitHub Actions)
+
+📁 Project Structure
+design-tokens/
+├─ build/
+│  ├─ css/
+│  │  └─ tokens.css
+│  └─ js/
+│     └─ tokens.js
+├─ .github/
+│  └─ workflows/
+│     └─ publish.yml
+├─ tokens.json
+├─ config.json
+└─ package.json
+
+✨ Generated Artifacts
+Path	Format	Description	Usage
+build/css/tokens.css	CSS Custom Properties	--token-name: value;	Web / CSS
+build/js/tokens.js	ES Modules	Exported object	JS / Node / Front-end
+🛠️ How to Contribute
+Designers / Token Masters
+
+All changes must be made only in:
+
+tokens.json
+
+
+Workflow:
+
+git add .
+git commit -m "feat: add new primary color"
+git push origin main
+
+
+GitHub Actions will automatically generate updated artifacts.
+
+🧩 Using Tokens in Code
+JavaScript (ESM):
+import { color, space } from './path/to/design-tokens/build/js/tokens.js';
+
+const primary = color.primary.base;
+const spacing = space.medium;
+
+element.style.background = primary;
+element.style.padding = spacing;
+
+
+# 🇧🇷 Português – Brasil
+
+Este repositório armazena e gerencia os **Design Tokens centrais** para todos os produtos e interfaces do ecossistema **priscilamoura-codestudio-creator**.
+
+Os Design Tokens funcionam como a **Single Source of Truth**, garantindo:
+
+- Consistência visual  
+- Sincronização entre Design & Dev  
+- Escalabilidade  
+- Automatização na entrega (via GitHub Actions)
+
+---
+
+## 📁 Estrutura do Projeto
+
+design-tokens/
+├─ build/
+│ ├─ css/
+│ │ └─ tokens.css
+│ └─ js/
+│ └─ tokens.js
+├─ .github/
+│ └─ workflows/
+│ └─ publish.yml
+├─ tokens.json
+├─ config.json
+└─ package.json
+
+yaml
+Copiar código
+
+---
+
+## ✨ Artefatos Gerados
+
+| Caminho | Formato | Descrição | Uso |
+|--------|---------|-----------|-----|
+| `build/css/tokens.css` | CSS Custom Properties | `--token-name: value;` | Aplicações Web |
+| `build/js/tokens.js` | ES Modules | Objeto exportado | JS / Node / Front-end |
+
+---
+
+## 🛠️ Como Contribuir
+
+### Designers / Token Masters  
+Toda alteração deve ser feita **exclusivamente** no arquivo:
+
+tokens.json
+
+sql
+Copiar código
+
+Fluxo:
+
+```bash
+git add .
+git commit -m "feat: adiciona nova cor primária"
+git push origin main
+O GitHub Actions se encarrega de gerar os tokens atualizados.
+
+🧩 Como Consumir os Tokens
+JavaScript (ESM):
+javascript
+Copiar código
+import { color, space } from './path/to/design-tokens/build/js/tokens.js';
+
+const primary = color.primary.base;
+const spacing = space.medium;
+
+element.style.background = primary;
+element.style.padding = spacing;
