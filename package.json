@@ -1,5 +1,5 @@
 {
-  "name": "@priscilamouracodestudio-creator/design-tokens",
+  "name": "design-tokens",
   "version": "1.0.0",
   "description": "Design Tokens do Projeto",
   "main": "build/js/tokens.js",
