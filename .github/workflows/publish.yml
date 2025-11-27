@@ -1,4 +1,4 @@
-,name: Publicar no NPM
+name: 'Publicar no NPM'
 
 # Este workflow será acionado toda vez que uma tag de versão for criada e enviada (ex: v1.0.0)
 on:
