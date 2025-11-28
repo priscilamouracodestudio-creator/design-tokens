@@ -1,4 +1,14 @@
 # 🎨 Design Tokens
+# @priscilamoura29/design-tokens
+
+[![NPM Version](https://badge.fury.io/js/@priscilamoura29%2Fdesign-tokens.svg)](https://www.npmjs.com/package/@priscilamoura29/design-tokens)
+[![GitHub Actions Status](https://github.com/priscilamoura-creator/design-tokens/actions/workflows/publish.yml/badge.svg)](https://github.com/priscilamoura-creator/design-tokens/actions/workflows/publish.yml)
+
+## Instalação
+
+```bash
+npm install @priscilamoura29/design-tokens
+
 This repository stores and manages the core Design Tokens for all products and interfaces of the priscilamoura-codestudio-creator ecosystem.
 
 Design Tokens serve as the Single Source of Truth, ensuring:
