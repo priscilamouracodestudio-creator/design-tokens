@@ -1,6 +1,6 @@
 {
-  "name": "design-tokens",
-  "version": "1.0.1",
+  "name": "@priscilamoura29/design-tokens",
+  "version": "1.0.3",
   "description": "Design Tokens do Projeto",
   "main": "build/js/tokens.js",
   "files": [                       
